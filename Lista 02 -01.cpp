@@ -8,7 +8,7 @@ int main()
 
     int matriz_1[3][3], matriz_resultado[3][3], numero;
 
-    cout << "Carga da primeira matriz"
+    cout << "Carga da matriz"
          << "\n";
     for (int linha = 0; linha < 3; linha++)
     {
@@ -23,7 +23,7 @@ int main()
     cout << "Digite um numero: ";
     cin >> numero;
 
-    // Geracao da matriz soma
+    // Geracao da matriz resultado
          cout << "\n";
     for (int linha = 0; linha < 3; linha++)
     {
